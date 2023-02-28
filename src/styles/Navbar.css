@@ -1,0 +1,83 @@
+.navBar li a{ /* All nav buttons forced */
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.Title { /* Main heading text */
+  font-size: 30px;
+  font-weight: bold;
+  display: inline;
+}
+
+.navBar { /* Default nav styles */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+}
+
+.sideNavbar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: -2%;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sideNavbar a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: .3s;
+}
+
+.sideNavbar li{
+  display: block;
+}
+
+.mobileButton{
+  width: 80px;
+  height: 80px;
+  right: 0;
+  top: 0;
+  margin: 24px 12px;
+  display: none;
+  position: absolute;
+}
+
+.navLinks {
+  margin-left: auto;
+}
+
+.navLinks li{
+  display: inline;
+  cursor: pointer;
+  margin-right: 2em;
+}
+
+.active{
+  border-left: 2.5px solid var(--text-color);
+  padding-left: 1em;
+  padding-bottom: .1em;
+}
+
+.inactive{
+  padding-right: 1em;
+}
+
+@media screen and (max-width: 830px){
+  .navLinks{
+      display: none;
+  }
+
+  .mobileButton{
+    display: inline;
+  }
+}

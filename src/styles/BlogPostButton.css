@@ -1,0 +1,75 @@
+/* Colours defined in App.css  */
+/* 
+.blogPostButton{
+    font-family: var(--font);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    cursor: pointer;
+    display: flex;
+    height: 200px;
+    width: 60%;
+    margin: 30px 30px;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogPostButton:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.buttonContent{
+    vertical-align: middle;
+}
+
+.buttonImage{
+    position: absolute;
+    display: block;
+    min-width: 160px;
+    width: 20%;
+    height: 100%;
+}
+
+.textWrap {
+    text-align: left;
+    margin: 20%;
+  }
+
+.buttonTextTitle{
+    font-weight: bold;
+    font-size: 1.2em;
+    top: 75%;
+    display: none;
+  }
+
+.buttonTextDesc{
+    position: absolute;
+    font-size: 0.8em;
+    top: 75%;
+} */
+
+.blog-post-wrapper{
+    margin-bottom: 3rem;
+    line-height: 1.3;
+}
+
+.postImg{
+    width: 250px;
+}
+
+.post-details-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seperator{
+    margin: 5px; /* Time icon to text spacing */
+}
+
+@media screen and (max-width: 1600px){
+    .buttonImage{
+        display: none;
+    }
+}

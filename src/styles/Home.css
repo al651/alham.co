@@ -1,0 +1,8 @@
+.content{
+    color: var(--text-color);
+}
+
+.courseLink{ /* External site links */
+    color: var(--link-color);
+}
+

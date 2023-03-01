@@ -1,11 +1,10 @@
-import { HashRouter, Link, NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react';
 import React from 'react';
 
 
 import '../styles/Navbar.css'
-import { TiThMenu } from "react-icons/ti";
-import { TiTimes } from "react-icons/ti";
+import { TiThMenu, TiTimes, TiSocialYoutube, TiSocialInstagram, TiMail } from "react-icons/ti";
 
 
 const Navbar = () => {
@@ -20,6 +19,11 @@ const Navbar = () => {
         <ul className="sideNavbar">
             <li><NavLink to="/" onClick={() => setShowMobileMenu(!showMobileMenu)} >about</NavLink></li>
             <li><NavLink to="/blog" onClick={() => setShowMobileMenu(!showMobileMenu)}>blog</NavLink></li>
+            <div className='mobileSocials'>
+                <li><a href="https://www.youtube.com/channel/UCpy5nWPp2pmlrkvbZBYAZqA"><TiSocialYoutube/></a></li>
+                <li><a href="https://www.instagram.com/alham.me/"><TiSocialInstagram/></a></li>
+                <li><a href="mailto:ali@alham.co"><TiMail/></a></li>
+            </div>
         </ul>
 
         sideNavbutton =
@@ -52,6 +56,9 @@ const Navbar = () => {
             <ul className="navLinks">
                 <li><NavLink to="/" activeClassName="inactive">about</NavLink></li>
                 <li><NavLink to="/blog" activeClassName="inactive">blog</NavLink></li>
+                <li><a href="https://www.youtube.com/channel/UCpy5nWPp2pmlrkvbZBYAZqA"><TiSocialYoutube/></a></li>
+                <li><a href="https://www.instagram.com/alham.me/"><TiSocialInstagram/></a></li>
+                <li><a href="mailto:ali@alham.co"><TiMail/></a></li>
             </ul>
 
             <span className="mobileButton">

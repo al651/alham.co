@@ -10,21 +10,23 @@ function BlogPost(props){
     const date = props.date;
     
     return (
-        <div className="blog-post-wrapper">
+        <div className='blog-post-wrapper'>
+            <div className="blog-card">
             <img src={img} alt= {alt} className='postImg'></img>
+            <h3 className="blog-title">
+                {title}
+            </h3>
             <div className='blog-post-content-wrapper'>
-                <button href={href}>
-                    {title}
-                </button>
             <p className='description-text'>
                 {description}
-                <div className='post-details-wrapper'>
-                    <TiTime/>
-                    <span className='seperator'></span>
-                    <time dateTime={date}>{date}</time>
-                </div>
             </p>
             </div>
+            <div className='post-details-wrapper'>
+                <TiTime/>
+                <span className='seperator'></span>
+                <time dateTime={date}>{date}</time>
+        </div>
+    </div>
 
             
             

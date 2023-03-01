@@ -80,4 +80,10 @@
   .mobileButton{
     display: inline;
   }
+
+  .mobileSocials{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+  }
 }

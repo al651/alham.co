@@ -56,8 +56,8 @@ const Navbar = () => {
             <ul className="navLinks">
                 <li><NavLink to="/" activeClassName="inactive">about</NavLink></li>
                 <li><NavLink to="/blog" activeClassName="inactive">blog</NavLink></li>
-                <li><a href="https://www.youtube.com/channel/UCpy5nWPp2pmlrkvbZBYAZqA"><TiSocialYoutube/></a></li>
-                <li><a href="https://www.instagram.com/alham.me/"><TiSocialInstagram/></a></li>
+                <li><a href="https://www.youtube.com/channel/UCpy5nWPp2pmlrkvbZBYAZqA" target="_blank"><TiSocialYoutube/></a></li>
+                <li><a href="https://www.instagram.com/alham.me/" target="_blank"><TiSocialInstagram/></a></li>
                 <li><a href="mailto:ali@alham.co"><TiMail/></a></li>
             </ul>
 

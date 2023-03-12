@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Regular", 'Courier New', Courier, monospace;
+  font-family: "Regular";
   src: local("SpaceMono-Regular"),
     url("./fonts/SpaceMono/spacemono-regular-webfont.woff2") format("woff2"),
     url("./fonts/SpaceMono/spacemono-regular-webfont.woff") format("woff");
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "Bold", 'Courier New', Courier, monospace;
+  font-family: "Bold";
   src: local("SpaceMono-Bold"),
     url("./fonts/SpaceMono/spacemono-bold-webfont.woff2") format("woff2"),
     url("./fonts/SpaceMono/spacemono-bold-webfont.woff") format("woff");
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "Italic", 'Courier New', Courier, monospace;
+  font-family: "Italic";
   src: local("SpaceMono-Italic"),
     url("./fonts/SpaceMono/spacemono-italic-webfont.woff2") format("woff2"),
     url("./fonts/SpaceMono/spacemono-italic-webfont.woff") format("woff");
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: "BoldItalic", 'Courier New', Courier, monospace;
+  font-family: "BoldItalic";
   src: local("SpaceMono-BoldItalic"),
     url("./fonts/SpaceMono/spacemono-bolditalic-webfont.woff2") format("woff2"),
     url("./fonts/SpaceMono/spacemono-bolditalic-webfont.woff") format("woff");

@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Regular";
+  src: local("SpaceMono-Regular"),
+    url("./fonts/SpaceMono/SpaceMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bold";
+  src: local("SpaceMono-Bold"),
+    url("./fonts/SpaceMono/SpaceMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Italic";
+  src: local("SpaceMono-Italic"),
+    url("./fonts/SpaceMono/SpaceMono-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BoldItalic";
+  src: local("SpaceMono-BoldItalic"),
+    url("./fonts/SpaceMono/SpaceMono-BoldItalic.ttf") format("truetype");
+}
+
+:root {
+  background-color: #2f3640;
+  color: var(--text-color);
+  
+  
+  --background-color: #2f3640;
+  --text-color: #f5f6fa;
+  --text-secondary-color: black;
+  --text-hover-color: #95a5a6;
+
+  /* --primary-color: rgba(63,61,86,1);
+  --primary-color-hover: rgba(63,61,86,0.8);
+  --secondary-color: rgba(195, 148, 78, 1);
+  --secondary-color-hover: rgba(195, 148, 78, 0.8); */
+  --background-color-hover: #C6BCBC;
+  --alt-background: #006600;
+  --link-color: #37fafa;
+}
+
+body {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Regular';
+}
+
+/* *, *::before, *::after{
+  box-sizing: border-box;
+} */

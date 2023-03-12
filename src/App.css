@@ -3,7 +3,7 @@
   src: local("SpaceMono-Regular"),
     url("./fonts/SpaceMono/spacemono-regular-webfont.woff2") format("woff2"),
     url("./fonts/SpaceMono/spacemono-regular-webfont.woff") format("woff");
-  font-display: optional;
+  font-display: auto;
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   src: local("SpaceMono-Bold"),
     url("./fonts/SpaceMono/spacemono-bold-webfont.woff2") format("woff2"),
     url("./fonts/SpaceMono/spacemono-bold-webfont.woff") format("woff");
-  font-display: optional;
+  font-display: auto;
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   src: local("SpaceMono-Italic"),
     url("./fonts/SpaceMono/spacemono-italic-webfont.woff2") format("woff2"),
     url("./fonts/SpaceMono/spacemono-italic-webfont.woff") format("woff");
-  font-display: optional;
+  font-display: auto;
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   src: local("SpaceMono-BoldItalic"),
     url("./fonts/SpaceMono/spacemono-bolditalic-webfont.woff2") format("woff2"),
     url("./fonts/SpaceMono/spacemono-bolditalic-webfont.woff") format("woff");
-    font-display: optional;
+    font-display: auto;
 }
 
 :root {

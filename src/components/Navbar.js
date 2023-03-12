@@ -20,9 +20,9 @@ const Navbar = () => {
             <li><NavLink to="/" onClick={() => setShowMobileMenu(!showMobileMenu)} >about</NavLink></li>
             <li><NavLink to="/blog" onClick={() => setShowMobileMenu(!showMobileMenu)}>blog</NavLink></li>
             <div className='mobileSocials'>
-                <li><a href="https://www.youtube.com/channel/UCpy5nWPp2pmlrkvbZBYAZqA"><TiSocialYoutube/></a></li>
-                <li><a href="https://www.instagram.com/alham.me/"><TiSocialInstagram/></a></li>
-                <li><a href="mailto:ali@alham.co"><TiMail/></a></li>
+                <li><a href="https://www.youtube.com/channel/UCpy5nWPp2pmlrkvbZBYAZqA" alt='Youtube channel button' target='_blank' rel='noopener noreferrer'><TiSocialYoutube/></a></li>
+                <li><a href="https://www.instagram.com/alham.me/" alt='Instagram account button' target='_blank' rel='noopener noreferrer'><TiSocialInstagram/></a></li>
+                <li><a href="mailto:ali@alham.co" alt='Email me button'><TiMail/></a></li>
             </div>
         </ul>
 
@@ -54,11 +54,11 @@ const Navbar = () => {
             </ul>
 
             <ul className="navLinks">
-                <li><NavLink to="/" activeClassName="inactive">about</NavLink></li>
-                <li><NavLink to="/blog" activeClassName="inactive">blog</NavLink></li>
-                <li><a href="https://www.youtube.com/channel/UCpy5nWPp2pmlrkvbZBYAZqA" target="_blank"><TiSocialYoutube/></a></li>
-                <li><a href="https://www.instagram.com/alham.me/" target="_blank"><TiSocialInstagram/></a></li>
-                <li><a href="mailto:ali@alham.co"><TiMail/></a></li>
+                <li><NavLink to="/">about</NavLink></li>
+                <li><NavLink to="/blog" >blog</NavLink></li>
+                <li><a href="https://www.youtube.com/channel/UCpy5nWPp2pmlrkvbZBYAZqA" alt='Youtube channel button' target='_blank' rel='noopener noreferrer'><TiSocialYoutube/></a></li>
+                <li><a href="https://www.instagram.com/alham.me/" alt='Instagram account button' target='_blank' rel='noopener noreferrer'><TiSocialInstagram/></a></li>
+                <li><a href="mailto:ali@alham.co" alt='Email me button'><TiMail/></a></li>
             </ul>
 
             <span className="mobileButton">

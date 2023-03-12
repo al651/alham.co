@@ -32,7 +32,7 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  margin: 0;
+  margin: auto;
 }
 
 .sideNavbar a{
@@ -75,7 +75,7 @@
 }
 
 .inactive{
-  padding-right: 1em;
+  margin: 1em;
 }
 
 @media screen and (max-width: 830px){

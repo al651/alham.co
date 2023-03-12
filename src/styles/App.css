@@ -1,11 +1,8 @@
-@import url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
-
 :root {
   background-color: #2f3640;
   color: var(--text-color);
-  font-family: 'Space Mono', sans-serif;
-
-
+  
+  
   --background-color: #2f3640;
   --text-color: #f5f6fa;
   --text-secondary-color: black;
@@ -24,6 +21,7 @@ body {
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
+    font-family: 'Space Mono', sans-serif;
 }
 
 /* *, *::before, *::after{

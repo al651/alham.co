@@ -37,13 +37,9 @@
   
   --background-color: #2f3640;
   --text-color: #f5f6fa;
-  --text-secondary-color: black;
+  --text-secondary-color: #3f3d56;
   --text-hover-color: #95a5a6;
 
-  /* --primary-color: rgba(63,61,86,1);
-  --primary-color-hover: rgba(63,61,86,0.8);
-  --secondary-color: rgba(195, 148, 78, 1);
-  --secondary-color-hover: rgba(195, 148, 78, 0.8); */
   --background-color-hover: #C6BCBC;
   --alt-background: #006600;
   --link-color: #37fafa;

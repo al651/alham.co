@@ -1,4 +1,5 @@
 import PostContent from "../components/PostContent"
+import '../styles/Post.css'
 import {useEffect, useState} from "react"
 
 const Post = () => {

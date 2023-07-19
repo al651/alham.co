@@ -1,7 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react';
-import React from 'react';
-
 
 import '../styles/Navbar.css'
 import { TiThMenu, TiTimes, TiSocialYoutube, TiSocialInstagram, TiMail } from "react-icons/ti";

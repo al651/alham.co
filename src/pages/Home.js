@@ -10,7 +10,7 @@ function Home() {
           <br></br>
           <br></br>
           Apart from my interest in computers and programming, I also have interests in engineering and have made things with Arduino and Raspberry Pi in the past
-          which are documented on the blog section of this website alongside those related to programming.
+          which will be documented on the blog section of this website alongside those related to programming.
         </p>
   );
 }

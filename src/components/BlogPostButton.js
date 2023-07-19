@@ -1,7 +1,7 @@
 import '../styles/BlogPostButton.css'
 import { TiTime } from "react-icons/ti";
 
-function BlogPost(props){
+function BlogPostButton(props){
     const title = props.title;
     const description = props.description;
     const img = props.img;
@@ -29,4 +29,4 @@ function BlogPost(props){
     );
 }
              
-export default BlogPost;
+export default BlogPostButton;

@@ -1,11 +1,26 @@
-import '../styles/BlogPost.css';
+import PostContent from "../components/PostContent"
+import {useEffect, useState} from "react"
 
-function BlogPost() {
-    return (
-        <div className="blog">
-            
+const Post = () => {
+    const [postContent, setPostContent] = useState("");
+
+    const markdown = ('2022-09-24-blog-post' + '.md');
+
+    useEffect(() => {
+        import("./blog-posts/" + markdown)
+        .then(res => {
+            fetch(res.default)
+            .then(response => response.text())
+            .then(response => setPostContent(response))
+            .catch(err => console.log(err))
+        })
+    })
+
+    return(
+        <div className="post-content">
+            <PostContent content={postContent} />
         </div>
-    );
+    )
 }
 
-export default BlogPost;
+export default Post;

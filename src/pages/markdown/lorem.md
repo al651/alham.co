@@ -1,3 +1,10 @@
+---
+title: Lorem Test
+slug: lorem
+author: Ali Hamid
+date: September 24, 2022
+---
+
 # Navem hic fine viro saxum insula deque
 
 ## Animalia locum temperie tristis bella potuissent verbisque

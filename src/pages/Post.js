@@ -1,5 +1,6 @@
 import PostContent from "../components/PostContent"
 import '../styles/Post.css'
+
 import {useEffect, useState} from "react"
 
 const Post = () => {
@@ -8,7 +9,7 @@ const Post = () => {
     const markdown = ('2022-09-24-blog-post' + '.md');
 
     useEffect(() => {
-        import("./blog-posts/" + markdown)
+        import("./markdown/" + markdown)
         .then(res => {
             fetch(res.default)
             .then(response => response.text())

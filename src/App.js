@@ -11,10 +11,9 @@ function App() {
       <Router>
       <Navbar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/blog/lorem" element={<Posts />} />
-          <Route path="/blog/2022-09-24-blog-post" element={<Posts />} />
+          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/blog" element={<BlogPage />} />
+          <Route exact path="/blog/:id" element={<Posts />} />
         </Routes>
       </Router>
     </div>

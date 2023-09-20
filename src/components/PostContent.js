@@ -1,12 +1,20 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
+import Markdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
 
-function PostContent(post){
-    const content = post.content;
-    
+import PostData from "../posts.json"
+
+function PostContent(){
     return (
         <article className="content">
-            <ReactMarkdown>{content}</ReactMarkdown>
+            {PostData.length &&
+                PostData.map((post, i)=> {
+                    return (
+                        <Markdown children={post.content} rehypePlugins={[rehypeRaw]}/>
+                    )
+                })
+            }
+            
         </article>
     );
 }

@@ -26,12 +26,12 @@
     box-shadow: 0 10px 10px hsla(0,0%,0%,0.1);
 }
 
-.blog-post-content-wrapper{
-    display: none;
+.author{
+    display: block;
 }
 
 .postImg{
-    width: 250px;
+    width: 200px;
 }
 
 .post-details-wrapper{
@@ -44,8 +44,8 @@
     margin: 5px; /* Time icon to text spacing */
 }
 
-@media screen and (max-width: 1600px){
-    .buttonImage{
+@media screen and (max-width: 830px){
+    .postImg{
         display: none;
     }
 }

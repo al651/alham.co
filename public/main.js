@@ -6,7 +6,6 @@ let postlist = []
 
 const getPosts = () => {
     fs.readdir(dirPath, (err, files) => {
-        console.log(files.length)
         if (err) {
             return console.log("Failed to list directory contents: " + err)
         }
@@ -39,17 +38,24 @@ const getPosts = () => {
                 const metadataIndicies = lines.reduce(getMetadataIndicies, [])
                 const metadata = parseMetaData({lines, metadataIndicies})
                 const content = parseContent({lines, metadataIndicies})
+                const date = new Date(metadata.date)
+                const timestamp = date.getTime() / 1000
                 post = { // Fallback data if no metadata is provided
-                    id: i + 1,
+                    id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
-                    slug: metadata.slug ? metadata.slug : i+1 + "-slug-not-provided",
-                    author: metadata.author ? metadata.author : "No author given",
+                    slug: metadata.slug ? metadata.slug : "/" + path.parse(`${dirPath}/${file}`).name,
+                    author: metadata.author ? metadata.author : "Anonymous",
+                    card_img: metadata.card_img ? metadata.card_img : "/images/develop-hammer-image.png",
+                    description: metadata.description ? metadata.description : "No description given",
                     date: metadata.date ? metadata.date : "No date given",
                     content: content ? content : "Work in progress..."
                 }
                 postlist.push(post)
                 if (i === files.length - 1){
-                    let data = JSON.stringify(postlist)
+                    const sortedList = postlist.sort((a,b) => {
+                        return a.id < b.id ? 1 : -1
+                    })
+                    let data = JSON.stringify(sortedList)
                     fs.writeFileSync("src/posts.json", data)
                 }
             })

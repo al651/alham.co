@@ -1,8 +1,7 @@
 ---
 title: Lorem Test
-slug: lorem
 author: Ali Hamid
-date: September 24, 2022
+date: May 23, 2021
 ---
 
 # Navem hic fine viro saxum insula deque
@@ -18,7 +17,9 @@ puer exstinguere animo: est. Ite arma minimos summa feci restitit *aut placet*
 inritans quicquid Ericthonio; vultus.
 
 > **Specta tantis** equi longa de et Phoebus suspiciens e urbem risisse Teucri
-> mediae! Forsitan [Minervae ait](http://www.dixeratcognati.org/cydoneasque), ad
+> mediae! 
+<a className="courseLink" href="https://google.com">Paris victa templi</a>
+> Forsitan , ad
 > presserat tantum. Pars et fiet celebrandaque volans. Felicem nota quamvis nube
 > terris quae sim penetravit scopulum cadit?
 
@@ -55,6 +56,6 @@ Murra qui sub convicia abdidit ullas se *pennae montani subito*.
 Equorum mihi tenet ostendens et alumnae tuorum, meos digna declive tulerunt
 mutatus nec. Lugebat quae non notavi canum: quam premeret. Nec cladis exsternata
 invisi, recedere religaret dare Alcathoen tempore. **Digitis habitusque**
-incipiat [pectora illius sum](http://est-noxia.org/) sua sospes causam suis apro
+incipiat [pectora illius sum](https://google.com) sua sospes causam suis apro
 Lycus nomine pererrat, totidem. Peleus evehor habitabilis, in auro cohaesit
 locorum reice haesura morbis, dictis.

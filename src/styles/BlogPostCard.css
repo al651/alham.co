@@ -1,6 +1,6 @@
 /* Colours defined in App.css  */
 
-.blog-card{
+.post-card{
     text-align: center;
     margin-bottom: 3rem;
     line-height: 1.3;
@@ -12,16 +12,16 @@
     transition: 0.25s ease;
 }
 
-.blog-title{
+.post-title{
     text-decoration: none;
     color: var(--text-color);
 }
 
-.blog-title:hover{
+.post-title:hover{
     color: var(--text-hover-color);
 }
 
-.blog-card:hover{
+.post-card:hover{
     transform: translateY(-2px);
     box-shadow: 0 10px 10px hsla(0,0%,0%,0.1);
 }
@@ -40,7 +40,7 @@
     justify-content: center;
 }
 
-.seperator{
+.icon-seperator{
     margin: 5px; /* Time icon to text spacing */
 }
 

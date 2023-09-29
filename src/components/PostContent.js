@@ -8,9 +8,9 @@ function PostContent(){
     return (
         <article className="content">
             {PostData.length &&
-                PostData.map((post, i)=> {
+                PostData.map((post)=> {
                     return (
-                        <Markdown children={post.content} rehypePlugins={[rehypeRaw]}/>
+                        <Markdown key={post.id} children={post.content} rehypePlugins={[rehypeRaw]}/>
                     )
                 })
             }

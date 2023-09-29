@@ -12,7 +12,7 @@ import BlogPostCard from "../components/BlogPostCard"
 function Blog() {
     return (
         <div className="blog-posts">
-            <BlogPostCard/>
+            <BlogPostCard />
         </div>
     );
 }

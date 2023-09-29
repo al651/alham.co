@@ -7,8 +7,7 @@ import PostData from "../posts.json"
 
 const BlogPostCard = () => {
     return (
-        <div className="bloglist">
-               
+        <div className="post-list">
         {PostData.length &&
             PostData.map((post, i)=> {
                 return (

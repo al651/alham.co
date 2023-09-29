@@ -1,5 +1,6 @@
 .content{
     color: var(--text-color);
+    padding: 5%;
 }
 
 .courseLink{ /* External site links */

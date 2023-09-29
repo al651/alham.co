@@ -13,6 +13,19 @@
     color: var(--text-color);
 }
 
+.img-subtitle{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.post-img{
+    display: block;
+    max-width: 100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (max-width: 830px){
     .post{
         width: auto;

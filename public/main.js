@@ -45,7 +45,7 @@ const getPosts = () => {
                     title: metadata.title ? metadata.title : "No title given",
                     slug: metadata.slug ? metadata.slug : path.parse(`${dirPath}/${file}`).name,
                     author: metadata.author ? metadata.author : "Anonymous",
-                    card_img: metadata.card_img ? metadata.card_img : "/images/develop-hammer-image.png",
+                    card_img: metadata.card_img ? metadata.card_img : "/images/blog-cards/develop-hammer-image.png",
                     date: metadata.date ? metadata.date : "No date given",
                     content: content ? content : "Work in progress..."
                 }

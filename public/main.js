@@ -43,7 +43,7 @@ const getPosts = () => {
                 post = { // Fallback data if no metadata is provided
                     id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
-                    slug: metadata.slug ? metadata.slug : "/" + path.parse(`${dirPath}/${file}`).name,
+                    slug: metadata.slug ? metadata.slug : path.parse(`${dirPath}/${file}`).name,
                     author: metadata.author ? metadata.author : "Anonymous",
                     card_img: metadata.card_img ? metadata.card_img : "/images/develop-hammer-image.png",
                     date: metadata.date ? metadata.date : "No date given",

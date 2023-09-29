@@ -1,0 +1,12 @@
+.message{
+    text-align: center;
+    padding: 5%;
+}
+
+.error404{
+    padding-top: 2%;
+}
+
+.home-link{
+    color: var(--link-color);
+}

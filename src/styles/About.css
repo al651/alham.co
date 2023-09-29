@@ -1,9 +1,17 @@
 .content{
     color: var(--text-color);
     padding: 5%;
+    width: 80%;
+    margin: auto;
 }
 
 .courseLink{ /* External site links */
     color: var(--link-color);
+}
+
+@media screen and (max-width: 830px){
+    .content{
+        width: auto;
+    }
 }
 

@@ -1,5 +1,6 @@
 import '../styles/BlogPostCard.css'
 import { TiTime } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 import React from "react";
 
@@ -13,9 +14,11 @@ const BlogPostCard = () => {
                 return (
                     <div key={post.id} className='post-card-wrapper'>
                         <div className="post-card">
-                            <a href={"/blog"+post.slug}><img src={post.card_img} className='postImg'></img></a>
+                        <Link to={`/blog/${post.slug}`}>
+                            <img src={post.card_img} className="postImg" />
+                        </Link>
                             <h3>
-                                <a className='post-title' href={"/blog" + post.slug}>{post.title}</a>
+                                <Link className='post-title' to={`/blog/${post.slug}`}>{post.title}</Link>
                             </h3>
                             <p>
                             </p>

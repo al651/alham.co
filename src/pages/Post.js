@@ -35,7 +35,13 @@ const Post = () => {
             </nav>
         
             <div className="post">
-            
+                <h1 className="actual-post-title">{fetchedPost.title}</h1>
+                <small className="post-date">{fetchedPost.date}</small>
+
+                <br></br>
+                <br></br>
+                
+            <div className="post-content"></div>
                 <Markdown key={fetchedPost.id} children={fetchedPost.content} rehypePlugins={[rehypeRaw]}/>
             </div>
         </div>

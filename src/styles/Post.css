@@ -1,10 +1,15 @@
 .post{
     width: 80%;
     margin: auto;
+    padding: 5%;
+}
+
+.actual-post-title{
+    text-decoration: none;
 }
 
 .back-button{
-
+    text-decoration: none;
     color: var(--text-color);
 }
 

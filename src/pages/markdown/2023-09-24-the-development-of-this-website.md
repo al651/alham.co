@@ -1,8 +1,7 @@
 ---
 title: The Development of This Website
 card_img: /images/blog-cards/website-icon.png
-author: Ali Hamid
-date: September 29, 2023
+date: September 24, 2023
 ---
 
 Welcome to my website! It took a lot of effort and time to create, as I wanted the website not to use a template, so I had to make everything from scratch.
@@ -13,9 +12,10 @@ The first place I went when starting was immediately to find websites that achie
 
 Despite how long the site took to make, it did pay off overall because it allowed me to customise things to a level of detail that web design platforms like WordPress simply cannot. One perfect example of this is in the site's performance. Platforms such as WordPress offer plugins and functions created for the general website. However, if you want code that works best for a specific website and to understand how it's all working for further iterations, then coding it myself was ultimately the best option.
 
-<img className="post-img" src="/images/site-performance.png" alt="Site performance">
-
-<div className="img-subtitle">A high performance Lighthouse test report for the landing page.</div>
+<figure>
+    <img className="post-img" src="/images/site-performance.png" alt="Site performance">
+    <figcaption className="img-subtitle">A high performance Lighthouse test report for the landing page.</figcaption>
+</figure>
 
 It shouldn't be the end of my development on this website, though. Knowing myself, I will continue to iterate over time, but I am happy with this for now.
 

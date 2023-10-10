@@ -5,10 +5,6 @@
     margin: auto;
 }
 
-.courseLink{ /* External site links */
-    color: var(--link-color);
-}
-
 @media screen and (max-width: 830px){
     .content{
         width: auto;

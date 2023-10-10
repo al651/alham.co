@@ -45,6 +45,25 @@
   --link-color: #37fafa;
 }
 
+figcaption{
+  text-align: center;
+}
+
+iframe{
+  border: 0;
+}
+
+.extlink{ /* External site links */
+  color: var(--link-color);
+}
+
+.iframe-wrapper{
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  padding-bottom: 50%;
+}
+
 body {
     padding-left: 10%;
     padding-right: 10%;

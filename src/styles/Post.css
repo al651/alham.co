@@ -13,10 +13,6 @@
     color: var(--text-color);
 }
 
-.img-subtitle{
-    text-align: center;
-}
-
 .post-img{
     display: block;
     max-width: 100%;

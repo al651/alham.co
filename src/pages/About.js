@@ -4,7 +4,7 @@ function About() {
   return (
     <p className="content">
           I am a recent graduate from the University of Portsmouth where I was undertaking a degree in  {/* This comment literally fixes an issue by adding an extra space here. Pretty hacky */}
-          <a className="courseLink" href="https://www.port.ac.uk/study/courses/bsc-hons-computing">
+          <a className="extlink" href="https://www.port.ac.uk/study/courses/bsc-hons-computing">
             Computing BSc
           </a>.
           <br></br>

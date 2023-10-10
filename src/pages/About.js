@@ -12,8 +12,7 @@ function About() {
           I have a strong interest in software engineering and game development and have made small projects over time but never dedicated a place for documenting them all which is why I decided to make a website, for posterity.
           <br></br>
           <br></br>
-          Apart from my interest in software development, I also have interests in engineering and have made things with Arduino and Raspberry Pi in the past
-          which will be documented on the blog section of this website alongside those related to software.
+          Apart from my interest in software development, I also have an interest in engineering, particularly with electronics and have made things with Arduino and Raspberry Pi in the past, which will be documented in the blog section of this website alongside those related to software.
         </p>
   );
 }

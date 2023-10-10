@@ -4,7 +4,7 @@ card_img: /media/2023-10-06-home-security-robot/my-messy-robot-design.png
 date: October 10, 2023
 ---
 
-Back in May I developed a home security proof of concept for my final year project at the University of Portsmouth. I finalised this idea after iterating through several other ideas because it combined my love of programming with my love of electronics and engineering.
+Back in May, I developed a home security proof of concept for my final year project at the University of Portsmouth. I finalised this idea after iterating through several other ideas because it combined my love of programming with my love of electronics and engineering.
 
 The project was made in two main sections: the app and the robot.
 

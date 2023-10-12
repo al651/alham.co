@@ -14,9 +14,11 @@ const BlogPostCard = () => {
                 return (
                     <div key={post.id} className='post-card-wrapper'>
                         <div className="post-card">
-                        <Link to={`/blog/${post.slug}`}>
-                            <img src={post.card_img} className="postImg" />
-                        </Link>
+                            <div className="img-wrapper">
+                                <Link to={`/blog/${post.slug}`}>
+                                    <img src={post.card_img} className="postImg" />
+                                </Link>
+                            </div>
                             <h3>
                                 <Link className='post-title' to={`/blog/${post.slug}`}>{post.title}</Link>
                             </h3>

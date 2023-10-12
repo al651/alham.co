@@ -70,6 +70,13 @@ body {
     font-family: 'Regular';
 }
 
+@media screen and (max-width: 600px){
+  body{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 /* *, *::before, *::after{
   box-sizing: border-box;
 } */

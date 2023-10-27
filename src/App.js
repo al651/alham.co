@@ -15,7 +15,7 @@ function App() {
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="/blog/*" element={<BlogPage />} />
           <Route exact path="/blog/:id" element={<Post />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFound status={404} />}  />
         </Routes>
       </Router>
     </div>

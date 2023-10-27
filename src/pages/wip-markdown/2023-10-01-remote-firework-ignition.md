@@ -1,5 +1,6 @@
 ---
 title: Remote Firework Ignition
+card_img: /media/2023-10-01-remote-firework-ignition/vertical_panorama02.png
 date: October 15, 2023
 ---
 

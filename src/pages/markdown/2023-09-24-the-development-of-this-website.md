@@ -6,7 +6,7 @@ date: September 24, 2023
 
 Welcome to my website! It took a lot of effort and time to create, as I wanted the website not to use a template, so I had to make everything from scratch.
 
-One of the most significant reasons this website took so long is that I had never used React or JavaScript before, so I was going into this project essentially blind, teaching myself as I went.
+One of the most significant reasons this website took so long is that I had never used React or JavaScript before, so I was going into this project essentially blind, teaching myself as I went. I ended up using HTMl, CSS and Javascript for this project with the React framework. I debated using more front-end platforms such as Gatsby and Tailwind but this being my first React project, I wanted to keep it simple.
 
 The first place I went when starting was immediately to find websites that achieved what I was trying to achieve. I took note of their designs and had a look at some of the HTML code that the websites used.
 

@@ -13,7 +13,7 @@ The project was made in two main sections: the app and the robot.
 The app was made in Flutter, below is a demo of the app.
 
 <div className=iframe-wrapper>
-    <iframe loading="lazy" allow="fullscreen; picture-in-picture;" allowfullscreen="" src="https://www.youtube.com/embed/QE4tuhMR4Xg" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+    <iframe title="A video showing a connection to the camera on the robot." allow="fullscreen; picture-in-picture;" allowfullscreen="" src="https://www.youtube.com/embed/QE4tuhMR4Xg" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
 </div>
 
 <figure>
@@ -32,7 +32,7 @@ Given more time, I could have made a nicer-looking and better-functioning robot,
 The robot was made using a simple car kit I found on Amazon, and I modified the design by drilling a bunch of holes in the plastic. In retrospect, there were better ways of mounting stuff to this chassis.
 
 <div className=iframe-wrapper>
-    <iframe allow="fullscreen; picture-in-picture;" allowfullscreen="" src="https://www.youtube.com/embed/AAkUKtALuzk" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+    <iframe title="A video demo of the robot, showcasing its collision avoidance." allow="fullscreen; picture-in-picture;" allowfullscreen="" src="https://www.youtube.com/embed/AAkUKtALuzk" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
 </div>
 
 <figure>

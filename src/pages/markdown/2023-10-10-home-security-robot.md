@@ -39,4 +39,4 @@ The robot was made using a simple car kit I found on Amazon, and I modified the 
     <figcaption>A video demo of the robot, showcasing its collision avoidance.</figcaption>
 </figure>
 
-For the more technical aspects of this project, I made it all available on GitHub with some more technical details, including the connections and all of the code I wrote. It can be found <a className="extlink" href="https://github.com/al651/Home_Security_Robot">here</a>.
+For those interested in more of the technical aspects of this project, I made the source code available on <a className="extlink" href="https://github.com/al651/Home_Security_Robot">Github</a> with further details in the <a className="extlink" href="https://github.com/al651/Home_Security_Robot/blob/main/README.md">README</a> file.

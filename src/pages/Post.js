@@ -1,12 +1,13 @@
-import Markdown from "react-markdown";
+import Markdown from "react-markdown"
+
 import '../styles/Post.css'
 
 import PostData from "../posts.json"
 
-import { TiArrowBack } from "react-icons/ti";
+import { TiArrowBack } from "react-icons/ti"
 
-import NotFound from '../pages/NotFound'
-import rehypeRaw from "rehype-raw";
+import NotFound from "../pages/NotFound"
+import rehypeRaw from "rehype-raw"
 
 import { Link, useParams } from "react-router-dom"
 

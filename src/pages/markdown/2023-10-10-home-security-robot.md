@@ -1,6 +1,6 @@
 ---
 title: Home Security Robot
-card_img: /media/2023-10-06-home-security-robot/my-messy-robot-design.png
+card_img: /media/2023-10-06-home-security-robot/my-messy-robot-design.avif
 date: October 10, 2023
 ---
 
@@ -13,7 +13,7 @@ The project was made in two main sections: the app and the robot.
 The app was made in Flutter, below is a demo of the app.
 
 <div className=iframe-wrapper>
-    <iframe allow="fullscreen; picture-in-picture;" allowfullscreen="" src="https://www.youtube.com/embed/QE4tuhMR4Xg" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+    <iframe loading="lazy" allow="fullscreen; picture-in-picture;" allowfullscreen="" src="https://www.youtube.com/embed/QE4tuhMR4Xg" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
 </div>
 
 <figure>
@@ -25,7 +25,7 @@ The app was made in Flutter, below is a demo of the app.
 Given more time, I could have made a nicer-looking and better-functioning robot, but since it was a proof of concept, I made this.
 
 <figure>
-    <img className="post-img" src="/media/2023-10-06-home-security-robot/my-messy-robot-design.png" alt="My home security robot.">
+    <img className="post-img" src="/media/2023-10-06-home-security-robot/my-messy-robot-design.avif" alt="My home security robot.">
     <figcaption>The final robot design.</figcaption>
 </figure>
 

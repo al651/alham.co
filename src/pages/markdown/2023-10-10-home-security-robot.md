@@ -12,9 +12,7 @@ The project was made in two main sections: the app and the robot.
 
 The app was made in Flutter, below is a demo of the app.
 
-<div className=iframe-wrapper>
-    <iframe title="A video showing a connection to the camera on the robot." allow="fullscreen; picture-in-picture;" allowfullscreen="" src="https://www.youtube.com/embed/QE4tuhMR4Xg" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
-</div>
+<iframe id="QE4tuhMR4Xg" title="A demonstration of a connection to the camera on the robot." poster="maxresdefault"></iframe>
 
 <figure>
     <figcaption>In the video I connect to the local IP address of the ESP32-CAM.</figcaption>
@@ -31,9 +29,7 @@ Given more time, I could have made a nicer-looking and better-functioning robot,
 
 The robot was made using a simple car kit I found on Amazon, and I modified the design by drilling a bunch of holes in the plastic. In retrospect, there were better ways of mounting stuff to this chassis.
 
-<div className=iframe-wrapper>
-    <iframe title="A video demo of the robot, showcasing its collision avoidance." allow="fullscreen; picture-in-picture;" allowfullscreen="" src="https://www.youtube.com/embed/AAkUKtALuzk" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
-</div>
+<iframe id="AAkUKtALuzk" title="Demonstration of the robot, showcasing its collision avoidance." poster="maxresdefault"></iframe>
 
 <figure>
     <figcaption>A video demo of the robot, showcasing its collision avoidance.</figcaption>

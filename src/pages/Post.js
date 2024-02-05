@@ -6,7 +6,9 @@ import PostData from "../posts.json"
 
 import { TiArrowBack } from "react-icons/ti"
 
-import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed'
+import Zoom from 'react-medium-image-zoom'
+import '../styles/medium-zoom.css'
 
 import NotFound from "../pages/NotFound"
 import rehypeRaw from "rehype-raw"
@@ -45,7 +47,7 @@ const Post = () => {
                 <br></br>
                 
             <div className="post-content"></div>
-                <Markdown key={fetchedPost.id} children={fetchedPost.content} rehypePlugins={[rehypeRaw]} components={{iframe: LiteYouTubeEmbed}}/> 
+                <Markdown key={fetchedPost.id} children={fetchedPost.content} rehypePlugins={[rehypeRaw]} components={{iframe: LiteYouTubeEmbed, zoom: Zoom}}/> 
             </div>
         </div>
     )

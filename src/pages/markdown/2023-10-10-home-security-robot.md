@@ -12,7 +12,7 @@ The project was made in two main sections: the app and the robot.
 
 The app was made in Flutter, below is a demo of the app.
 
-<iframe id="QE4tuhMR4Xg" title="A demonstration of a connection to the camera on the robot." poster="maxresdefault"></iframe>
+<iframe id="QE4tuhMR4Xg" title="Demonstration of a connection to the camera on the robot." poster="maxresdefault"></iframe>
 
 <figure>
     <figcaption>In the video I connect to the local IP address of the ESP32-CAM.</figcaption>
@@ -22,8 +22,11 @@ The app was made in Flutter, below is a demo of the app.
 
 Given more time, I could have made a nicer-looking and better-functioning robot, but since it was a proof of concept, I made this.
 
-<figure>
+<zoom>
     <img className="post-img" src="/media/2023-10-06-home-security-robot/my-messy-robot-design.avif" alt="My home security robot.">
+</zoom>
+
+<figure>
     <figcaption>The final robot design.</figcaption>
 </figure>
 

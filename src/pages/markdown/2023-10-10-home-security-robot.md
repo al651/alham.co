@@ -6,7 +6,7 @@ date: October 10, 2023
 
 I developed a home security proof of concept in May for my final year project at the University of Portsmouth. After iterating through several other ideas, I finalized this idea because it combined my love of programming with my love of electronics and engineering.
 
-The idea came from Amazon's home security robot, <a className="extlink" href="https://www.amazon.com/Introducing-Amazon-Astro/dp/B078NSDFSB">Astro</a>. Although this robot is currently available under invite only as of writing this, it was revealed to sell for about $1500. I looked at this product and similar ones and thought I could make it cheaper while also scratching that mechanical and electronic engineering itch I had.
+The idea came from Amazon's home security robot, [Astro](https://www.amazon.com/Introducing-Amazon-Astro/dp/B078NSDFSB). Although this robot is currently available under invite only as of writing this, it was revealed to sell for about $1500. I looked at this product and similar ones and thought I could make it cheaper while also scratching that mechanical and electronic engineering itch I had.
 
 The idea was for a proof of concept, a fully autonomous robot that could detect objects in front of it and be accessed remotely through the internet.
 
@@ -42,4 +42,4 @@ The robot was made using a simple car kit I found on Amazon, and I modified the 
     <figcaption>A video demo of the robot, showcasing its collision avoidance.</figcaption>
 </figure>
 
-For those interested in more of the technical aspects of this project, I made the source code available on <a className="extlink" href="https://github.com/al651/Home_Security_Robot">Github</a> with further details in the <a className="extlink" href="https://github.com/al651/Home_Security_Robot/blob/main/README.md">README</a> file.
+For those interested in more of the technical aspects of this project, I made the source code available on [Github](https://github.com/al651/Home_Security_Robot) with further details in the [README](https://github.com/al651/Home_Security_Robot/blob/main/README.md) file.

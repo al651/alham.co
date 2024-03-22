@@ -53,6 +53,10 @@ iframe{
   border: 0;
 }
 
+a{
+  color: var(--link-color);
+}
+
 .extlink{ /* External site links */
   color: var(--link-color);
 }

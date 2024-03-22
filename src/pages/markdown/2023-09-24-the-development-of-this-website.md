@@ -22,3 +22,8 @@ Despite how long the site took to make, it did pay off overall because it allowe
 
 It shouldn't be the end of my development on this website, though. Knowing myself, I will continue to iterate over time, but I am happy with this for now.
 
+### Update: 06/02/2024
+
+Since this site went live, I've been mostly working on making it more performant for low tier hardware and constantly evolving the mobile phone and small screen experience.
+
+One of the biggest changes that I made which improved performance by 50% in some cases is making youtube embeds use a [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed). This form of rendering for iframe elements is said to be 224x faster and I have definitely felt the improvements on those pages.

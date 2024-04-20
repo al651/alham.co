@@ -113,6 +113,11 @@ body {
   }
 }
 
+li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 /* *, *::before, *::after{
   box-sizing: border-box;
 } */

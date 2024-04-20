@@ -13,7 +13,7 @@ The first place I went when starting was immediately to find websites that achie
 Despite how long the site took to make, it did pay off overall because it allowed me to customise things to a level of detail that web design platforms like WordPress simply cannot. One perfect example of this is in the site's performance. Platforms such as WordPress offer plugins and functions created for the general website. However, if you want code that works best for a specific website and to understand how it's all working for further iterations, then coding it myself was ultimately the best option.
 
 <zoom>
-    <img className="post-img" src="/media/2023-09-24-the-development-of-this-website/site-performance.png" alt="Site performance">
+    <img width="1000" height="400" className="post-img" src="/media/2023-09-24-the-development-of-this-website/site-performance.png" alt="Site performance">
 </zoom>
 
 <figure>

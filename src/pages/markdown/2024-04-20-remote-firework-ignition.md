@@ -17,7 +17,7 @@ A few years ago I had an idea to create a remote firework firing system. The ide
 This initial test was to see if I could get the RF signals working with a generic RF remote I bought online, which I intended to use for the fireworks activator. The initial tests were a success! As you see from the video, my remote receives the signals, and the computer displays what it receives.
 
 <zoom>
-    <img className="post-img" src="/media/2023-10-01-remote-firework-ignition/rf-signal-reciever-XY-MK-5V.jpg" alt="The RF I used reciever" width="400">
+    <img className="post-img" src="/media/2023-10-01-remote-firework-ignition/rf-signal-reciever-XY-MK-5V.jpg" alt="The RF reciever board that was used." width="400">
 </zoom>
 
 <figure>
@@ -38,7 +38,7 @@ This initial test was to see if I could get the RF signals working with a generi
     <figcaption>Here I programmed the LED to use more colours.</figcaption>
 </figure>
 
-After successfully conducting my RGB LED tests, I feel confident about this project's potential. Using this board, I can trigger a firework remotely, which is a significant step forward.
+After successfully conducting my RGB LED tests, I feel confident about this project's potential. Using this board, it seemed that I could trigger a firework remotely, which is a significant realisation and step forward.
 
 Initially, I struggled because I found more difficulties to consider as I thought about it. I knew I would be using E-matches to trigger the fireworks fuses, but how would I even source those? What voltage do those require? My initial job was to get my hands on some of these.
 
@@ -52,7 +52,7 @@ Initially, I struggled because I found more difficulties to consider as I though
 
 ## Firework Test
 
-After some tinkering with the E-matches and looking around online, I found they take very little to fire. They were also readily available on specialist fireworks-selling sites. Two or three 18650 batteries would do the trick, so I used two for testing.
+After doing some research on E-matches, they seemed to be readily available on specialist fireworks-selling sites. I found they also take very little to fire, two or three 18650 batteries would do the trick, so I used two for testing.
 
 <zoom>
     <img className="post-img" src="/media/2023-10-01-remote-firework-ignition/18650-battery.png" alt="Picture of a single Talon electronic match" width="400">
@@ -62,7 +62,7 @@ After some tinkering with the E-matches and looking around online, I found they 
     <figcaption>18650 Rechargeable Battery</figcaption>
 </figure>
 
-So, what does this all look like in practice?
+Before I get this to work on an E-match I wanted to see if I could deliver enough voltage to trigger anything remotely through an RF signal.
 
 <iframe id="zHjUKfPjhPM" title="Demo of the RF signal being sent to a relay to light up an LED." poster="maxresdefault"></iframe>
 
@@ -70,7 +70,7 @@ So, what does this all look like in practice?
     <figcaption>An RF signal turns an LED on briefly.</figcaption>
 </figure>
 
-The prototype has reached a stage where an e-match could be attached to trigger a firework. Of course, I would prioritise adding more safety features before testing it on a real firework, but how about a small fuse instead?
+The prototype has reached a stage where an E-match could be attached to trigger a firework. Of course, I would prioritise adding more safety features before testing it on a real firework, but how about a small fuse instead?
 
 <iframe id="3tdBnFd1Pgs" title="An e-match igniting a fuse from a distance using an RF signal." poster="maxresdefault"></iframe>
 

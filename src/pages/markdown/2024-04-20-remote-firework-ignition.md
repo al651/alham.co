@@ -43,7 +43,7 @@ After successfully conducting my RGB LED tests, I feel confident about this proj
 Initially, I struggled because I found more difficulties to consider as I thought about it. I knew I would be using E-matches to trigger the fireworks fuses, but how would I even source those? What voltage do those require? My initial job was to get my hands on some of these.
 
 <zoom>
-    <img className="post-img" src="/media/2023-10-01-remote-firework-ignition/talon-e-match.jpg" alt="Picture of a single Talon electronic match" width="600">
+    <img className="post-img" src="/media/2023-10-01-remote-firework-ignition/talon-e-match.jpg" alt="A single Talon electronic match" width="600">
 </zoom>
 
 <figure>
@@ -55,7 +55,7 @@ Initially, I struggled because I found more difficulties to consider as I though
 After doing some research on E-matches, they seemed to be readily available on specialist fireworks-selling sites. I found they also take very little to fire, two or three 18650 batteries would do the trick, so I used two for testing.
 
 <zoom>
-    <img className="post-img" src="/media/2023-10-01-remote-firework-ignition/18650-battery.png" alt="Picture of a single Talon electronic match" width="400">
+    <img className="post-img" src="/media/2023-10-01-remote-firework-ignition/18650-battery.png" alt="A single 18650 rechargeable battery." width="400">
 </zoom>
 
 <figure>
@@ -76,6 +76,16 @@ The prototype has reached a stage where an E-match could be attached to trigger 
 
 <figure>
     <figcaption>The e-match ignites a fuse, triggered by an RF signal.</figcaption>
+</figure>
+
+I had triggered maybe two E-matches before this clip, but it was very cool to finally have something I could show on camera. Unfortunately, I burned the alligator clips on my helping hand soldering station to get this shot, but I think it was worth it.
+
+<zoom>
+<img className="post-img" src="/media/2023-10-01-remote-firework-ignition/burnt-alligator-clip.jpg" alt="" width="1000">
+</zoom>
+
+<figure>
+    <figcaption>Burnt alligator clip ):</figcaption>
 </figure>
 
 This project has been an absolute joy, even though I've had to work on it during a time when I couldn't test it on fireworks due to legal restrictions in the UK. I'm considering revisiting this project with an update when I can test it on real fireworks and with additional safety features. Despite the limitations, this has been a fantastic learning experience for me, and I've thoroughly enjoyed every moment.

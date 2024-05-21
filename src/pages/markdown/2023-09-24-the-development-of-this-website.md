@@ -27,3 +27,9 @@ It shouldn't be the end of my development on this website, though. Knowing mysel
 Since this site went live, I've been mostly working on making it more performant for low tier hardware and constantly evolving the mobile phone and small screen experience.
 
 One of the biggest changes that I made which improved performance by 50% in some cases is making youtube embeds use a [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed). This form of rendering for iframe elements is said to be 224x faster and I have definitely felt the improvements on those pages.
+
+## Update: 21/05/2024
+
+I published a fairly major update to the website today, which I have been sitting on for a while. I made a website footer and included a section on the about page for certifications because the page always felt a bit too empty to me.
+
+Even though I wrote the code for these features a few months back, I decided to put it off until now. I wanted to finish some courses I was working on, but I realised it would take longer than expected, so I decided just to publish the update. It will make the site look better, too, and I can always add the certifications later on.

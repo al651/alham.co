@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import HomePage from './pages/About'
 import BlogPage from './pages/BlogList'
 import Post from './pages/Post'
@@ -18,6 +19,7 @@ function App() {
           <Route path="*" element={<NotFound status={404} />}  />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }

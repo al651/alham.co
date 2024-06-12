@@ -34,7 +34,7 @@ Given more time, I think I could have dedicated more time to how the robot looke
     <figcaption>The final robot design.</figcaption>
 </figure>
 
-The robot was made using a simple car kit I found on Amazon. The way I mounted thinbgs to the chassis is just simply by drilling holes and using screws.
+The robot was made using a simple car kit I found on Amazon. The way I mounted things to the chassis is just simply by drilling holes in the acrylic plastic and using screws.
 
 <iframe id="AAkUKtALuzk" title="Demonstration of the robot, showcasing its collision avoidance." poster="maxresdefault"></iframe>
 

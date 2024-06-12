@@ -14,7 +14,7 @@ The project was made in two main sections: the app and the robot.
 
 ## The App
 
-The app was made in Flutter, below is a demo of the app.
+The app was made in Flutter, using the Dart programming language. I had never used this platform before so this was the first app I had ever made using it.
 
 <iframe id="QE4tuhMR4Xg" title="Demonstration of a connection to the camera on the robot." poster="maxresdefault"></iframe>
 
@@ -24,7 +24,7 @@ The app was made in Flutter, below is a demo of the app.
 
 ## The Robot
 
-Given more time, I could have made a nicer-looking and better-functioning robot, but since it was a proof of concept, I made this.
+Given more time, I think I could have dedicated more time to how the robot looked, but since it was a proof of concept, I was prioritising its functionality.
 
 <zoom>
     <img className="post-img" src="/media/2023-10-06-home-security-robot/my-messy-robot-design.avif" alt="My home security robot.">
@@ -34,7 +34,7 @@ Given more time, I could have made a nicer-looking and better-functioning robot,
     <figcaption>The final robot design.</figcaption>
 </figure>
 
-The robot was made using a simple car kit I found on Amazon, and I modified the design by drilling a bunch of holes in the plastic. In retrospect, there were better ways of mounting stuff to this chassis.
+The robot was made using a simple car kit I found on Amazon. The way I mounted thinbgs to the chassis is just simply by drilling holes and using screws.
 
 <iframe id="AAkUKtALuzk" title="Demonstration of the robot, showcasing its collision avoidance." poster="maxresdefault"></iframe>
 

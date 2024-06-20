@@ -14,7 +14,7 @@ A few years ago I had an idea to create a remote firework firing system. The ide
     <figcaption>First RF signal test shows the computer recieved output of the RF signal.</figcaption>
 </figure>
 
-This initial test was to see if I could get the RF signals working with a generic RF remote I bought online, which I intended to use for the fireworks activator. The initial tests were a success! As you see from the video, my remote receives the signals, and the computer displays what it receives.
+This initial test was to see if I could get the RF signals working with a generic RF remote I bought online, which I intended to use for the fireworks activator. The initial tests were a success! As you see from the video, my remote sends the signals, the reciever recieves it, and the computer displays what it receives.
 
 <zoom>
     <img className="post-img" src="/media/2023-10-01-remote-firework-ignition/rf-signal-reciever-XY-MK-5V.jpg" alt="The RF reciever board that was used." width="400">

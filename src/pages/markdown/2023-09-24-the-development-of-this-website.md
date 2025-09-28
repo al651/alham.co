@@ -36,4 +36,4 @@ Even though I wrote the code for these features a few months back, I decided to 
 
 ## Update: 28/09/2025
 
-I thought I would open source this website in an effort to show off more of my code on my Github page, which I have always neglected. You can find the source code [here](https://github.com/al651/alham.co), I might add some technical details in the README when I get some time but as of posting this update, it is empty.
+I thought I would open source this website in an effort to show off more of my code on my Github page, which I have always neglected. You can find the source code [here](https://github.com/al651/alham.co), I might add some technical details in the README when I get some time. As of posting this update, there is only 1 documented terminal command for updating all the posts after making changes on the markdown.

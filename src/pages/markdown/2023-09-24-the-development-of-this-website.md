@@ -33,3 +33,7 @@ One of the biggest changes that I made which improved performance by 50% in some
 I published a fairly major update to the website today, which I have been sitting on for a while. I made a website footer and included a section on the about page for certifications because the page always felt a bit too empty to me.
 
 Even though I wrote the code for these features a few months back, I decided to put it off until now. I wanted to finish some courses I was working on, but I realised it would take longer than expected, so I decided just to publish the update. It will make the site look better, too, and I can always add the certifications later on.
+
+## Update: 28/09/2025
+
+I thought I would open source this website in an effort to show off more of my code on my Github page, which I have always neglected. You can find the source code [here](https://github.com/al651/alham.co), I might add some technical details in the README when I get some time but as of posting this update, it is empty.
